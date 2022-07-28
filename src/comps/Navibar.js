@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react';
+
+//styles & icons
 import { Nav, Navbar, Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Navibar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -60,12 +65,15 @@ export default function Navibar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
+              <a href="#">
+                <FontAwesomeIcon icon={faGithub} className="github" />
+              </a>
+              <a href="#">
+                <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
+              </a>
             </div>
             <button className="vvd" onclick={() => console.log('connect')}>
-              <span>let's connect</span>
+              <span>Let's connect</span>
             </button>
           </span>
         </Navbar.Collapse>
