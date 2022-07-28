@@ -2,6 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
 import headshot from '../images/headshot.jpg';
+import './Banner.css';
 
 export default function Banner() {
   return (
