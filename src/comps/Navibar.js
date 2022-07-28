@@ -5,6 +5,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import './Navibar.css';
 
 export default function Navibar() {
@@ -45,15 +46,7 @@ export default function Navibar() {
             >
               Home
             </Nav.Link>
-            <Nav.Link
-              href="#about"
-              className={
-                activeLink === 'about' ? 'active navbar-link' : 'navbar-link'
-              }
-              onClick={() => onUpdateActiveLink('about')}
-            >
-              About
-            </Nav.Link>
+
             <Nav.Link
               href="#skills"
               className={
@@ -71,6 +64,15 @@ export default function Navibar() {
               onClick={() => onUpdateActiveLink('projects')}
             >
               Projects
+            </Nav.Link>
+            <Nav.Link
+              href="#about"
+              className={
+                activeLink === 'about' ? 'active navbar-link' : 'navbar-link'
+              }
+              onClick={() => onUpdateActiveLink('about')}
+            >
+              About
             </Nav.Link>
             <Nav.Link
               href="#resume"

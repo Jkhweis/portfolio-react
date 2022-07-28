@@ -1,6 +1,9 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
+
+//styles & icons
+import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +11,9 @@ import { faSquareJs } from '@fortawesome/free-brands-svg-icons';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
-import './Skills.css';
+
+//animation
+import { motion } from 'framer-motion';
 
 export default function Skills() {
   const responsive = {
@@ -38,36 +43,35 @@ export default function Skills() {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="skill-slider"
               >
-                <div className="item">
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faReact} className="skill-icon" />
                   <p>React.js</p>
-                </div>
-                <div className="item">
+                </motion.div>
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faSquareJs} className="skill-icon" />
                   <p>JavaScript</p>
-                </div>
-                <div className="item">
+                </motion.div>
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faHtml5} className="skill-icon" />
                   <p>HTML5</p>
-                </div>
-                <div className="item">
+                </motion.div>
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faCss3Alt} className="skill-icon" />
                   <p>CSS3</p>
-                </div>
-                <div className="item">
+                </motion.div>
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faBootstrap} className="skill-icon" />
                   <p>Bootstrap</p>
-                </div>
-                <div className="item">
+                </motion.div>
+                <motion.div className="item" whileHover={{ scale: 1.15 }}>
                   <FontAwesomeIcon icon={faGithub} className="skill-icon" />
                   <p>Github</p>
-                </div>
+                </motion.div>
               </Carousel>
             </div>
           </Col>

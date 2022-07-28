@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 /* Navbar CSS */
 nav.navbar {
   padding: 18px 0;
@@ -12,8 +14,11 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 9%;
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+  font-size: 22px;
 }
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;

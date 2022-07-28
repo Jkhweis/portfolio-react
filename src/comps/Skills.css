@@ -13,7 +13,12 @@
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-top: -10px;
   margin-bottom: 35px;
+}
+
+.item {
+  margin-top: 5px;
 }
 
 .skill-slider {
