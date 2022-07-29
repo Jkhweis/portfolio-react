@@ -47,3 +47,20 @@ h6 {
 .App-link {
   color: #61dafb;
 }
+
+.email-icon {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #1394eb;
+}
+
+.contact-email {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 18px;
+}

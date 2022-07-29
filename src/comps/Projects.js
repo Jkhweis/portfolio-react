@@ -14,45 +14,41 @@ export default function Projects() {
     {
       id: 1,
       title: 'React Chat App',
-      description: 'Blah Blah',
+      description:
+        'Users can send and delete messages in chat room. Created with React and utilizes Google auth, custom hooks, context, Firebase realtime database, React Router, Framer Motion, & Howler ',
       imgUrl: chatapp,
       href: 'https://chat-app-561bf.web.app/',
     },
     {
       id: 2,
       title: 'React Project Management Site',
-      description: 'Blah Blah',
+      description:
+        'Users can add new projects & comments, sort projects, & view online user list. Created with React and utilizes Firebase auth, custom hooks, context, Firebase realtime database, React Router, & Date-fns ',
       imgUrl: projectmgmt,
-      href:
-        'https://the-dojo-react-15a17.web.app/projects/9nAKc8mDYRFAg6Ld0lLo',
+      href: 'https://the-dojo-react-15a17.web.app/signup',
     },
+
     {
       id: 3,
-      title: 'React Firegram',
-      description: 'Blah Blah',
-      imgUrl: dictionary,
-      href: 'https://joykhweis-firegram.web.app/',
-    },
-    {
-      id: 4,
       title: 'React Dictionary App',
       description:
-        'A dictionary application displaying a words definition, phonetics, examples, synonyms and photos. Created utilizing React, dictionary API, phonetics API, and photo API.',
+        'Searches for a word to display definition, phonetics, examples, synonyms and photos. Created with React and utilizes dictionary API & Pexels photo API.',
       imgUrl: dictionary,
       href: 'https://reverent-davinci-c69fde.netlify.app/',
     },
     {
-      id: 5,
+      id: 4,
       title: 'React Weather App',
       description:
-        'A weather application displaying the current temperature and forecast in 3-hour increments. Created utilizing React and weather data API.',
+        'Enter a city to display the current temperature and forecast in 3-hour increments. Created with React and utilizes weather data API.',
       imgUrl: weather,
       href: 'https://elated-dijkstra-a36404.netlify.app/',
     },
     {
-      id: 6,
+      id: 5,
       title: 'Vanilla JS Weather App',
-      description: 'Blah Blah',
+      description:
+        'Enter a city to display the current temperature and convert between Celsius and Fahrenheit. Created with Vanilla JavaScript and utilizes weather data API.',
       imgUrl: vanillaweather,
       href:
         'https://www.shecodes.io/workshops/shecodes-plus-19-0/projects/78686',
@@ -60,12 +56,11 @@ export default function Projects() {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col>
             <h2>Projects</h2>
-
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

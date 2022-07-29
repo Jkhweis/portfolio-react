@@ -96,9 +96,16 @@ export default function Navibar() {
                 <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
               </a>
             </div>
-            <button className="vvd" onclick={() => console.log('connect')}>
-              <span>Let's connect</span>
-            </button>
+            <a
+              href="mailto:joykhweis@gmail.com"
+              target="_blank"
+              title="Let's connect"
+            >
+              <button className="vvd">
+                <span>Let's connect</span>
+              </button>
+              >
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

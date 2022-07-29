@@ -14,9 +14,16 @@ export default function Banner() {
             <h1>{`Hi! I'm Joy Khweis`}</h1>
             <h2>{`Junior React Developer`}</h2>
             <p>Loren ipsum </p>
-            <Button variant="info" onClick={() => console.log('connect')}>
-              Let's connect <ArrowRightCircle size={25} />
-            </Button>
+            <a
+              href="mailto:joykhweis@gmail.com"
+              target="_blank"
+              title="Let's connect"
+            >
+              <Button variant="info">
+                Let's connect <ArrowRightCircle size={25} />
+              </Button>
+              >
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headshot} alt="Header Img" />
