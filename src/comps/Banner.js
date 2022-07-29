@@ -13,7 +13,7 @@ export default function Banner() {
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi! I'm Joy Khweis`}</h1>
             <h2>{`Junior React Developer`}</h2>
-            <p>Loren ipsum ifh fuwhfuw fuhwuee</p>
+            <p>Loren ipsum </p>
             <Button variant="info" onClick={() => console.log('connect')}>
               Let's connect <ArrowRightCircle size={25} />
             </Button>

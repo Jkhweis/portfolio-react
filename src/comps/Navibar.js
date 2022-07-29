@@ -86,10 +86,13 @@ export default function Navibar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://github.com/Jkhweis" target="_blank">
                 <FontAwesomeIcon icon={faGithub} className="github" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/joy-khweis-bb91b0198/"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
               </a>
             </div>

@@ -40,10 +40,8 @@
 .banner button {
   font-weight: 700;
   font-size: 18px;
-  margin-left: 120px;
+  margin-left: 10px;
   letter-spacing: 0.5px;
-  display: flex;
-  align-items: center;
 }
 .banner button svg {
   font-size: 25px;
@@ -56,10 +54,11 @@
 }
 
 .banner img {
-  animation: updown 6s linear infinite;
+  animation: updown 10s linear infinite;
   max-width: 300px;
   border-radius: 30px;
 }
+
 @keyframes updown {
   0% {
     transform: translateY(-20px);
