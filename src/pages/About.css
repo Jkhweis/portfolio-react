@@ -1,4 +1,63 @@
-.about-section {
-  margin-top: 200px;
-  background: pink;
+/* About CSS */
+
+.about {
+  padding: 200px 0 200px 140px;
+  background-image: url('../images/starrymountain.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.about p {
+  font-size: 15px;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.about img {
+  animation: updown 10s linear infinite;
+  max-width: 300px;
+  border-radius: 30px;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
 }

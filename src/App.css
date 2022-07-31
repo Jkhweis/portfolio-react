@@ -50,17 +50,17 @@ h6 {
 
 .email-icon {
   margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 50px;
+  margin-bottom: 5px;
+  font-size: 45px;
   color: #1394eb;
 }
 
 .contact-email {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 }
