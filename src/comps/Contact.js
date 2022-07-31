@@ -1,4 +1,6 @@
 import { Container } from 'react-bootstrap';
+
+//styles & icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -14,6 +16,7 @@ export default function Contact() {
         >
           <div>
             <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
+
             <p>joykhweis@gmail.com</p>
           </div>
         </a>

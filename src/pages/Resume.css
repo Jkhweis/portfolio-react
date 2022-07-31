@@ -1,4 +1,54 @@
-.resume-section {
-  margin-top: 200px;
-  background: yellow;
+/* Resume CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.resume {
+  background-color: #151515;
+  padding: 100px;
+  margin-top: 50px;
+}
+
+.resume h1 {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  font-family: 'Prata', serif;
+}
+
+.resume h2 {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: 'Prata', serif;
+}
+
+.parent {
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.child-year {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #afafb3;
+  font-weight: bold;
+}
+
+.resume p {
+  margin-bottom: 15px;
+  font-style: italic;
+  color: #9d9da0;
 }

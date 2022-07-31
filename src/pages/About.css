@@ -40,24 +40,3 @@ ul {
   list-style-position: inside;
   text-align: left;
 }
-
-.about img {
-  animation: updown 10s linear infinite;
-  max-width: 300px;
-  border-radius: 30px;
-}
-
-@keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-}

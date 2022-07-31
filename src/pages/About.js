@@ -6,26 +6,26 @@ import './About.css';
 export default function About() {
   return (
     <section className="about" id="about">
-      <Container fluid>
+      <Container>
         <Row>
-          <Col xs={12} md={5} xl={7}>
+          <Col xs={12} md={5} xl={6}>
             <h2>{`About Me`}</h2>
             <span className="tagline">
               <p>
-                Hello! I am a self-taught Junior React Developer with a passion
-                for creativity and clean code. I discovered my love of coding
-                during the pandemic when I signed up for a SheCodes course. From
-                there, I completed all available SheCodes courses in JavaScript,
-                React, and Responsive. I also completed Shaun Pelling's (The Net
-                Ninja) Udemy Course on React and Firebase which helped me to
-                further hone my skills. I have since been building my own
-                projects in React. I am currently looking to gain more
-                experience under the wing of senior developers and am seeking
-                apprenticeship or work opportunities.
+                Hello! I am a self-taught React Developer with a passion for
+                creative thinking and clean code. I discovered my love of coding
+                during the pandemic in 2020 when I signed up for a SheCodes
+                course. After that, I completed all SheCodes courses in
+                JavaScript, React, and Responsive. I also completed Shaun
+                Pelling's (The Net Ninja) Udemy Course on React and Firebase. I
+                have started building my own projects in React to further hone
+                my skills. I am looking to gain more experience under the wing
+                of senior developers and am currently seeking apprenticeship or
+                work opportunities.
               </p>
             </span>
           </Col>
-          <Col xs={12} md={5} xl={7}>
+          <Col xs={12} md={5} xl={6}>
             <h2>{`Skills`}</h2>
             <span className="tagline">
               <p>
@@ -40,9 +40,9 @@ export default function About() {
                   <li>Bootstrap</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
+                  <br />
+                  <br />
                 </ul>
-                <br />
-                <br />
               </p>
             </span>
           </Col>
