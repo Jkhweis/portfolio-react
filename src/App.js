@@ -1,7 +1,4 @@
 import Navibar from './comps/Navibar.js';
-import Banner from './comps/Banner.js';
-import Skills from './comps/Skills.js';
-import Projects from './comps/Projects.js';
 import Contact from './comps/Contact.js';
 
 //styles & css

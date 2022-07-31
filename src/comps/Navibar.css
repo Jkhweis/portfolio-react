@@ -13,7 +13,7 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
-nav.navbar a.navbar-brand {
+nav.navbar .navbar-brand {
   font-family: 'Kaushan Script', cursive;
   color: #ffffff;
   font-size: 22px;
@@ -27,6 +27,12 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
+
+nav.navbar .navbar-nav .nav-link.navbar-link .hashlnk {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;

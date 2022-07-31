@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 //styles & icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -37,31 +38,31 @@ export default function Navibar() {
     <BrowserRouter>
       <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
         <Container>
-          <Navbar.Brand href="#home">Joy Khweis</Navbar.Brand>
+          <Navbar.Brand>Joy Khweis</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                as={Link}
-                to="/"
                 className={
                   activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
                 }
                 onClick={() => onUpdateActiveLink('home')}
               >
-                Home
+                <HashLink to="/#home" className="hashlnk">
+                  Home
+                </HashLink>
               </Nav.Link>
               <Nav.Link
-                href="#skills"
                 className={
                   activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
                 }
                 onClick={() => onUpdateActiveLink('skills')}
               >
-                Skills
+                <HashLink to="/#skills" className="hashlnk">
+                  Skills
+                </HashLink>
               </Nav.Link>
               <Nav.Link
-                href="#projects"
                 className={
                   activeLink === 'projects'
                     ? 'active navbar-link'
@@ -69,7 +70,9 @@ export default function Navibar() {
                 }
                 onClick={() => onUpdateActiveLink('projects')}
               >
-                Projects
+                <HashLink to="/#projects" className="hashlnk">
+                  Projects
+                </HashLink>
               </Nav.Link>
               <Nav.Link
                 as={Link}
@@ -77,6 +80,7 @@ export default function Navibar() {
                 className={
                   activeLink === 'about' ? 'active navbar-link' : 'navbar-link'
                 }
+                id="#about"
                 onClick={() => onUpdateActiveLink('about')}
               >
                 About
@@ -124,7 +128,7 @@ export default function Navibar() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/media" element={<Resume />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -56,7 +56,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project">
       <Container>
         <Row>
           <Col>
