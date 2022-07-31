@@ -12,9 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navibar />
-      <Banner />
-      <Skills />
-      <Projects />
+
       <Contact />
     </div>
   );
