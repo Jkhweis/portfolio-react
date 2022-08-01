@@ -43,3 +43,10 @@ ul {
   list-style-position: inside;
   text-align: left;
 }
+
+@media (max-width: 900px) {
+  .about {
+    padding: 100px 0 100px 50px;
+    margin-left: -46px;
+  }
+}

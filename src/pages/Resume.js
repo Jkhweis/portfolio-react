@@ -1,7 +1,7 @@
 //styles & icons
 import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Resume() {
   return (
@@ -31,7 +31,7 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faCertificate} className="cert-icon" />
+            <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faCertificate} className="cert-icon" />
+            <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faCertificate} className="cert-icon" />
+            <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faCertificate} className="cert-icon" />
+            <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function Resume() {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faCertificate} className="cert-icon" />
+            <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
         </div>
       </div>

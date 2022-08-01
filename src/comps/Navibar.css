@@ -42,10 +42,7 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
-.social-icon {
-  display: inline-block;
-  margin-left: 14px;
-}
+
 .social-icon a {
   width: 42px;
   height: 42px;
@@ -87,7 +84,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 16px 32px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
@@ -161,4 +158,13 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border-color: transparent;
+}
+
+@media (max-width: 900px) {
+  .navbar-text button {
+    display: none;
+  }
+  span.navbar-text {
+    justify-content: center;
+  }
 }

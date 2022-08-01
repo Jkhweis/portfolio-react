@@ -64,3 +64,9 @@
   border: transparent;
   border-radius: 55px 0px 0px 55px;
 }
+
+@media (max-width: 900px) {
+  .project .nav.nav-pills {
+    width: 50%;
+  }
+}

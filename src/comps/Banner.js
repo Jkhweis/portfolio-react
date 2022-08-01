@@ -16,6 +16,7 @@ export default function Banner() {
             <a
               href="mailto:joykhweis@gmail.com"
               target="_blank"
+              rel="noreferrer"
               title="Let's connect"
             >
               <Button variant="info">

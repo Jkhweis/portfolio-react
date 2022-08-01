@@ -103,7 +103,11 @@ export default function Navibar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/Jkhweis" target="_blank">
+                <a
+                  href="https://github.com/Jkhweis"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon icon={faGithub} className="github" />
                 </a>
                 <a
@@ -120,7 +124,7 @@ export default function Navibar() {
                 rel="noreferrer"
                 title="Let's connect"
               >
-                <button className="vvd">
+                <button>
                   <span>Let's connect</span>
                 </button>
               </a>

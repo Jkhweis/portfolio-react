@@ -12,15 +12,14 @@ export default function About() {
             <h2>{`About Me`}</h2>
             <span className="tagline">
               <p>
-                Hello! I am a self-taught React Developer with a passion for
-                creative thinking and clean code. I discovered my love of coding
-                during the pandemic in 2020 when I signed up for a SheCodes
-                course. After that, I completed all SheCodes courses in
-                JavaScript, React, and Responsive. I also completed Shaun
-                Pelling's (The Net Ninja) Udemy Course on React and Firebase. I
-                have started building my own projects in React to further hone
-                my skills. I am looking to gain more experience under the wing
-                of senior developers and am currently seeking apprenticeship or
+                Hello! I am a self-taught aspiring React Developer. I discovered
+                my love of coding during the pandemic in 2020 when I signed up
+                for a SheCodes course. From there I completed all SheCodes
+                courses in JavaScript, React, and Responsive. I also completed
+                Shaun Pelling's (The Net Ninja) Udemy Course on React and
+                Firebase. I have started building my own projects in React to
+                further hone my skills. I am looking to gain more experience
+                under the wing of senior developers and am currently seeking
                 work opportunities.
               </p>
             </span>
@@ -40,7 +39,6 @@ export default function About() {
                   <li>Bootstrap</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
-                  <br />
                   <br />
                 </ul>
               </p>

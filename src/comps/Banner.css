@@ -83,3 +83,10 @@
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+@media (max-width: 900px) {
+  .banner img {
+    margin-top: 50px;
+    max-width: 200px;
+  }
+}

@@ -11,6 +11,7 @@ export default function Contact() {
         <a
           href="mailto:joykhweis@gmail.com"
           target="_blank"
+          rel="noreferrer"
           title="Contact Email"
           className="contact-email"
         >
@@ -21,8 +22,9 @@ export default function Contact() {
           <p>
             This website was coded by Joy Khweis and it is{' '}
             <a
-              href="https://github.com/Jkhweis/chat-app-react"
+              href="https://github.com/Jkhweis"
               target="_blank"
+              rel="noreferrer"
               title="Joy Khweis Github"
             >
               open-sourced

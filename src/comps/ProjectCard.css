@@ -63,3 +63,18 @@
 .project-btn {
   margin-top: 15px;
 }
+@media (max-width: 900px) {
+  .proj-txtx {
+    width: 70%;
+    left: 50%;
+  }
+  .proj-txtx h4 {
+    margin-top: 15px;
+  }
+  .proj-imgbx {
+    margin-bottom: 10px;
+  }
+  .proj-imgbx::hover:before {
+    height: 100%;
+  }
+}
