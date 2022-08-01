@@ -38,7 +38,12 @@ export default function Navibar() {
     <BrowserRouter>
       <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
         <Container>
-          <Navbar.Brand>Joy Khweis</Navbar.Brand>
+          <Navbar.Brand>
+            {' '}
+            <HashLink to="/#home" className="brand-link">
+              Joy Khweis
+            </HashLink>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -118,7 +123,6 @@ export default function Navibar() {
                 <button className="vvd">
                   <span>Let's connect</span>
                 </button>
-                >
               </a>
             </span>
           </Navbar.Collapse>

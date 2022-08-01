@@ -14,12 +14,9 @@ export default function Contact() {
           title="Contact Email"
           className="contact-email"
         >
-          <div>
-            <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
-
-            <p>joykhweis@gmail.com</p>
-          </div>
+          <FontAwesomeIcon icon={faEnvelope} className="email-icon" />
         </a>
+        <p>joykhweis@gmail.com</p>
         <footer className="footer">
           <p>
             This website was coded by Joy Khweis and it is{' '}
@@ -32,6 +29,7 @@ export default function Contact() {
             </a>{' '}
             on Github
           </p>
+          <p>© 2022 Joy Khweis</p>
         </footer>
       </Container>
     </section>

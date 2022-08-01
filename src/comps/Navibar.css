@@ -13,10 +13,11 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
-nav.navbar .navbar-brand {
+nav.navbar .navbar-brand .brand-link {
   font-family: 'Kaushan Script', cursive;
   color: #ffffff;
   font-size: 22px;
+  text-decoration: none;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {

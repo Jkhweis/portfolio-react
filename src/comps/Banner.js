@@ -21,7 +21,6 @@ export default function Banner() {
               <Button variant="info">
                 Let's connect <ArrowRightCircle size={25} />
               </Button>
-              >
             </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
