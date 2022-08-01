@@ -1,11 +1,21 @@
+import { useEffect, useRef } from 'react';
+
 //styles & icons
 import './Resume.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Resume() {
+  const topContainer = useRef();
+
+  // To make sure page starts from the top
+  useEffect(() => {
+    topContainer.current.scrollIntoView({ block: 'end', behavior: 'smooth' });
+  }, []);
+
   return (
     <section className="resume" id="resume">
+      <div ref={topContainer} />
       <h1>Resume</h1>
       <h2>Education</h2>
       <div className="parent">

@@ -1,11 +1,20 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { useEffect, useRef } from 'react';
 
 //styles & icons
 import './About.css';
 
 export default function About() {
+  const topContainer = useRef();
+
+  // To make sure page starts from the top
+  useEffect(() => {
+    topContainer.current.scrollIntoView({ block: 'end', behavior: 'smooth' });
+  }, []);
+
   return (
     <section className="about" id="about">
+      <div ref={topContainer} />
       <Container>
         <Row>
           <Col xs={12} md={5} xl={6}>

@@ -9,7 +9,7 @@
 }
 .icon-style {
   background-color: #551b54;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -22,7 +22,7 @@
   animation: none;
   background: #fff;
   color: #551b54;
-  border: 2px solid #551b54;
+  border: 1px solid #551b54;
 }
 @keyframes movebtn {
   0% {
