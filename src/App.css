@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding: 75px;
-}
-
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -33,21 +28,6 @@ h6 {
 
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .email-icon {
@@ -87,7 +67,7 @@ footer {
 }
 
 .programmer {
-  animation: updown 8s linear infinite;
+  animation: updown 9s linear infinite;
   max-width: 100px;
   border-radius: 20px;
 }
@@ -102,9 +82,6 @@ footer {
   100% {
     transform: translateY(-20px);
   }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
 }
 
 @media (max-width: 800) {

@@ -1,8 +1,8 @@
-import './Projects.css';
-import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard.js';
 
-//images
+//styles & images
+import './Projects.css';
+import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import vanillaweather from '../images/vanillaweather.png';
 import weather from '../images/weather.png';
 import dictionary from '../images/dictionary.png';

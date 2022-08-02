@@ -1,5 +1,3 @@
-import './Home.css';
-
 import Banner from '../comps/Banner.js';
 import Skills from '../comps/Skills.js';
 import Projects from '../comps/Projects.js';

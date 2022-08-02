@@ -40,6 +40,7 @@ export default function Resume() {
             href="https://www.udemy.com/certificate/UC-562260bb-a10c-423a-b06b-316a7d030af4/"
             target="_blank"
             rel="noreferrer"
+            title="Udemy certificate"
           >
             <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
@@ -53,6 +54,7 @@ export default function Resume() {
             href="https://www.shecodes.io/certificates/8d810bca85bf40f5913c18b1dbd870aa"
             target="_blank"
             rel="noreferrer"
+            title="SheCodes Certificate"
           >
             <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
@@ -66,6 +68,7 @@ export default function Resume() {
             href="https://www.shecodes.io/certificates/b0c8104fcbbaef9ede9d4e9747340f8f"
             target="_blank"
             rel="noreferrer"
+            title="SheCodes Certificate"
           >
             <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>
@@ -79,6 +82,7 @@ export default function Resume() {
             href="https://www.shecodes.io/certificates/62c97d94da37f45383d92e118990063e"
             target="_blank"
             rel="noreferrer"
+            title="SheCodes certificate"
           >
             <FontAwesomeIcon icon={faStar} className="cert-icon" />
           </a>

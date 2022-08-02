@@ -1,4 +1,6 @@
 /* Banner CSS */
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -38,6 +40,14 @@
   margin-bottom: 20px;
   display: block;
 }
+
+.banner h4 {
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  margin-bottom: 10px;
+}
+
 .banner p {
   color: #b8b8b8;
   font-size: 18px;
@@ -52,6 +62,7 @@
   margin-top: 20px;
   margin-left: 10px;
   letter-spacing: 0.5px;
+  font-family: 'Rambla', sans-serif;
 }
 .banner button svg {
   font-size: 25px;
@@ -79,9 +90,6 @@
   100% {
     transform: translateY(-20px);
   }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
 }
 
 @media (max-width: 900px) {

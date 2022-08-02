@@ -1,6 +1,6 @@
+/* Navbar CSS */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/* Navbar CSS */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -70,12 +70,7 @@ span.navbar-text {
   transform: scale(1);
 }
 
-.github {
-  color: white;
-  font-size: 20px;
-}
-
-.linkedin {
+.icon-img {
   color: white;
   font-size: 20px;
 }

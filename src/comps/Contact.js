@@ -1,8 +1,7 @@
-import { Container } from 'react-bootstrap';
-
 //styles & icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Container } from 'react-bootstrap';
 
 export default function Contact() {
   return (
@@ -22,7 +21,7 @@ export default function Contact() {
           <p>
             This website was coded by Joy Khweis and it is{' '}
             <a
-              href="https://github.com/Jkhweis"
+              href="https://github.com/Jkhweis/portfolio-react"
               target="_blank"
               rel="noreferrer"
               title="Joy Khweis Github"

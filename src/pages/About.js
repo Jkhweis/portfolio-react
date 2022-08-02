@@ -1,8 +1,8 @@
-import { Container, Row, Col } from 'react-bootstrap';
 import { useEffect, useRef } from 'react';
 
 //styles & icons
 import './About.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function About() {
   const topContainer = useRef();
