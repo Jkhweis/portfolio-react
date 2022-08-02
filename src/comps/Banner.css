@@ -97,4 +97,9 @@
     margin-top: 50px;
     max-width: 200px;
   }
+  .banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+  }
 }
