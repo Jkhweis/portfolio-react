@@ -101,7 +101,6 @@ export default function Resume() {
           </a>
         </div>
       </div>
-
       <h2>Work Experience</h2>
       <div className="parent">
         <div className="child-year">2017-Present</div>

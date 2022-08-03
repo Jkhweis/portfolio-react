@@ -43,12 +43,12 @@ export default function About() {
                   <li>Custom Hooks</li>
                   <li>Context</li>
                   <li>React Router Dom Version 6</li>
+                  <li>Responsive Web Design</li>
                   <li>Firebase authentication, realtime database & hosting</li>
                   <li>API's</li>
                   <li>Bootstrap</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
-                  <br />
                 </ul>
               </p>
             </span>
