@@ -26,7 +26,7 @@ export default function Banner() {
               </Button>
             </a>
           </Col>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={1}>
             <img src={headshot} alt="Headshot" />
           </Col>
         </Row>

@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
 
 .about {
-  padding: 200px 0 200px 140px;
-  background-image: url('../images/starrynight.jpg');
+  padding: 200px 140px 200px 140px;
+  background-image: url('../images/milkyway.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,18 +15,21 @@
   padding: 15px 15px;
   background: linear-gradient(
     90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(31, 20, 26, 0.5) -5.91%,
     rgba(74, 47, 189, 0.5) 111.58%
   );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.7);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .about p {
   font-size: 17px;
-  color: #e8e9f3;
+  color: #979ee5;
+
   font-family: 'Rambla', sans-serif;
 }
 
@@ -48,5 +51,9 @@ ul {
   .about {
     padding: 100px 0 100px 50px;
     margin-left: -46px;
+  }
+  .about .tagline {
+    width: 80%;
+    height: 90%;
   }
 }
