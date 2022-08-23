@@ -21,16 +21,16 @@ export default function About() {
             <h2>{`About Me`}</h2>
             <span className="tagline">
               <p>
-                Hello! I am a self-taught aspiring React Developer. I discovered
-                my love of coding during the pandemic in 2020 when I signed up
-                for a SheCodes course. From there I completed all SheCodes
-                courses and discovered that React is my favorite library to work
-                with. in 2021 I decided to take the plunge and leave my office
-                job to have time to study coding while running my small business
-                online full-time. I continue to build my own projects in React
-                to further hone my skills. I am looking to gain more experience
-                under the wing of senior developers and am currently seeking
-                work opportunities as a Junior React developer.
+                Hello! I am a self-taught aspiring React Developer with a
+                passion for creating clean, reusable code. I discovered my love
+                of coding during the pandemic in 2020 when I signed up for a
+                SheCodes course. I have since completed all SheCodes courses and
+                an Udemy course, and have gained proficiency in functional
+                components, React hooks, context, async/await, React Router,
+                HTML5, CSS3, Firebase, Bootstrap, API's and responsive web
+                design. I continue to build new projects regularly to hone my
+                skills. I am currently seeking work opportunities as a Junior
+                React developer.
               </p>
             </span>
           </Col>
