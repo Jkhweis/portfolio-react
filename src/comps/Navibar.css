@@ -162,4 +162,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   span.navbar-text {
     justify-content: center;
   }
+  span.navbar-text {
+    display: flex;
+    align-items: center;
+    margin-right: -10px;
+  }
 }

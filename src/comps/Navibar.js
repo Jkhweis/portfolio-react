@@ -36,7 +36,11 @@ export default function Navibar() {
 
   return (
     <BrowserRouter>
-      <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
+      <Navbar
+        collapseOnSelect
+        expand="md"
+        className={scrolled ? 'scrolled' : ''}
+      >
         <Container>
           <Navbar.Brand>
             {' '}
@@ -44,10 +48,13 @@ export default function Navibar() {
               Joy Khweis
             </HashLink>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
+            <span className="navbar-toggler-icon"></span>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
+                eventKey="1"
                 className={
                   activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
                 }
@@ -58,6 +65,7 @@ export default function Navibar() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link
+                eventKey="2"
                 className={
                   activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
                 }
@@ -68,6 +76,7 @@ export default function Navibar() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link
+                eventKey="3"
                 className={
                   activeLink === 'projects'
                     ? 'active navbar-link'
@@ -80,6 +89,7 @@ export default function Navibar() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link
+                eventKey="4"
                 as={Link}
                 to="/about"
                 className={
@@ -91,6 +101,7 @@ export default function Navibar() {
                 About
               </Nav.Link>
               <Nav.Link
+                eventKey="5"
                 as={Link}
                 to="/resume"
                 className={
@@ -101,6 +112,7 @@ export default function Navibar() {
                 Resume
               </Nav.Link>
             </Nav>
+
             <span className="navbar-text">
               <div className="social-icon">
                 <a
