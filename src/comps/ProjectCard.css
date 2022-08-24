@@ -33,7 +33,7 @@
 
 .proj-txtx {
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: 60%;
   left: 53%;
   transform: translate(-50%, -50%);
@@ -64,7 +64,7 @@
 }
 
 .project-btn {
-  margin-top: 15px;
+  margin: 0 auto;
 }
 @media (max-width: 900px) {
   .proj-txtx h4 {

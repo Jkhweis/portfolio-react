@@ -16,7 +16,7 @@ export default function ProjectCard({ title, description, imgUrl, href }) {
           <span>{description}</span>
           <div>
             <a href={href} target="_blank" rel="noreferrer">
-              <Button variant="light" className="project-btn">
+              <Button variant="primary" className="project-btn">
                 <ArrowRightCircle size={25} />
               </Button>
             </a>
