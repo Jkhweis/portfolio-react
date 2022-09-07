@@ -167,4 +167,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     align-items: center;
     margin-right: -10px;
   }
+  nav.navbar {
+    position: static;
+    background-color: transparent;
+  }
 }
