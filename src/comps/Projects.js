@@ -8,19 +8,28 @@ import weather from '../images/weather.png';
 import dictionary from '../images/dictionary.png';
 import chatapp from '../images/chatapp.png';
 import projectmgmt from '../images/projectmgmt.png';
+import eljardin from '../images/eljardin.png';
 
 export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: 'Client- Restaurant Site',
+      description:
+        'Website built for restaurant client. Created with React and utilizes context for english/spanish translation, Google Maps API, React Router, Bootstrap & responsive design.',
+      imgUrl: eljardin,
+      href: 'https://www.eljardintradicional.com/',
+    },
+    {
+      id: 2,
       title: 'React Chat App',
       description:
-        'Users can send and delete messages in chat room. Created with React and utilizes Google auth, custom hooks, context, Firebase realtime database, React Router, Framer Motion, & Howler ',
+        'Users can send and delete messages in chat room. Created with React and utilizes Google auth, custom hooks, context, Firebase realtime database, React Router, responsive design, Framer Motion, & Howler ',
       imgUrl: chatapp,
       href: 'https://chat-app-561bf.web.app/',
     },
     {
-      id: 2,
+      id: 3,
       title: 'React Project Management Site',
       description:
         'Users can add new projects & comments, sort projects, & view online user list. Created with React and utilizes Firebase auth, custom hooks, context, Firebase realtime database, React Router, & Date-fns ',
@@ -29,7 +38,7 @@ export default function Projects() {
     },
 
     {
-      id: 3,
+      id: 4,
       title: 'React Dictionary App',
       description:
         'Searches for a word to display definition, phonetics, examples, synonyms and photos. Created with React and utilizes dictionary API & Pexels photo API.',
@@ -37,7 +46,7 @@ export default function Projects() {
       href: 'https://reverent-davinci-c69fde.netlify.app/',
     },
     {
-      id: 4,
+      id: 5,
       title: 'React Weather App',
       description:
         'Enter a city to display the current temperature and forecast in 3-hour increments. Created with React and utilizes weather data API.',
@@ -45,7 +54,7 @@ export default function Projects() {
       href: 'https://elated-dijkstra-a36404.netlify.app/',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Vanilla JS Weather App',
       description:
         'Enter a city to display the current temperature and convert between Celsius and Fahrenheit. Created with Vanilla JavaScript and utilizes weather data API.',
