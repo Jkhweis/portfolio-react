@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 
 //styles & icons
 import './About.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Col } from 'react-bootstrap';
 
 //styles & icons
 
