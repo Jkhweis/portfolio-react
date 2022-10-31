@@ -14,7 +14,7 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Client- Restaurant Site',
+      title: 'Client- Restaurant Site (React)',
       description:
         'Website built for restaurant client. Created with React and utilizes context for english/spanish translation, Google Maps API, React Router, Bootstrap & responsive design.',
       imgUrl: eljardin,
