@@ -12,7 +12,6 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 //pages
 import Home from '../pages/Home';
 import About from '../pages/About';
-import Resume from '../pages/Resume';
 
 export default function Navibar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -100,17 +99,6 @@ export default function Navibar() {
               >
                 About
               </Nav.Link>
-              <Nav.Link
-                eventKey="5"
-                as={Link}
-                to="/resume"
-                className={
-                  activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'
-                }
-                onClick={() => onUpdateActiveLink('resume')}
-              >
-                Resume
-              </Nav.Link>
             </Nav>
 
             <span className="navbar-text">
@@ -150,7 +138,6 @@ export default function Navibar() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
