@@ -160,12 +160,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     display: none;
   }
   span.navbar-text {
-    justify-content: center;
-  }
-  span.navbar-text {
-    display: flex;
-    align-items: center;
-    margin-right: -10px;
+    display: none;
   }
   nav.navbar {
     position: static;

@@ -24,7 +24,7 @@ export default function Projects() {
       id: 2,
       title: 'React Chat App',
       description:
-        'Users can send and delete messages in chat room. Created with React and utilizes Google auth, custom hooks, context, Firebase realtime database, React Router, responsive design, Framer Motion, & Howler ',
+        'Users can send and delete messages in chat room. Created with React and utilizes Google auth, custom hooks, context, Firebase realtime database, React Router, responsive design & Framer Motion.',
       imgUrl: chatapp,
       href: 'https://chat-app-561bf.web.app/',
     },
@@ -32,7 +32,7 @@ export default function Projects() {
       id: 3,
       title: 'React Project Management Site',
       description:
-        'Users can add new projects & comments, sort projects, & view online user list. Created with React and utilizes Firebase auth, custom hooks, context, Firebase realtime database, React Router, & Date-fns ',
+        'Users can add new projects & comments, sort projects, & view online user list. Created with React and utilizes Firebase auth, custom hooks, context, Firebase realtime database, React Router, & Date-fns.',
       imgUrl: projectmgmt,
       href: 'https://the-dojo-react-15a17.web.app/signup',
     },

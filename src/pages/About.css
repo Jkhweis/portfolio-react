@@ -98,4 +98,9 @@
     margin: 0 auto;
     text-align: left;
   }
+  .about .icon-img {
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 4px 4px;
+  }
 }
