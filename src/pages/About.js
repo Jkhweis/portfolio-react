@@ -2,12 +2,15 @@ import { useEffect, useRef } from 'react';
 
 //styles & icons
 import './About.css';
-import { Container, Col } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 
 //styles & icons
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   const topContainer = useRef();
@@ -30,9 +33,9 @@ export default function About() {
             then I have completed all SheCodes courses and have gained
             proficiency in React, with an emphasis on functional components,
             custom hooks, state management, and responsive web design. I
-            continue to build new projects regularly, and am currently open to
+            continue to build new projects regularly, and am currently open for
             freelance and work opportunities. Outside of coding, some of my
-            hobbies include viola, gaming, world travel, & Muay Thai Boxing.
+            hobbies include viola, gaming, world travel, & Muay Thai boxing.
           </p>
         </Col>
         <Col>
@@ -116,7 +119,7 @@ export default function About() {
               <li>React State Management</li>
               <li>React Functional Components</li>
               <li>React Hooks & Custom Hooks</li>
-              <li>Context</li>
+              <li>React Context</li>
               <li>React Router Dom Version 6</li>
               <li>Firebase authentication, realtime database & hosting</li>
               <li>API's</li>
@@ -127,9 +130,44 @@ export default function About() {
             </ul>
           </div>
         </Col>
-
-        <h6>Contact: joykhweis@gmail.com</h6>
-        <h6>LinkedIn: https://www.linkedin.com/in/joy-khweis-bb91b0198/</h6>
+        <h2>Contact</h2>
+        <Row>
+          <div className="d-flex justify-content-center social-links">
+            <span>
+              <a
+                href="https://github.com/Jkhweis"
+                target="_blank"
+                rel="noreferrer"
+                title="Joy Khweis Github Icon"
+              >
+                <FontAwesomeIcon icon={faGithub} className="icon-img" />
+              </a>
+              <p>Github</p>
+            </span>
+            <span>
+              <a
+                href="mailto:joykhweis@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                title="Joy Khweis Email"
+              >
+                <FontAwesomeIcon icon={faEnvelope} className="icon-img" />
+              </a>
+              <p>joykhweis@gmail.com</p>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/joy-khweis-bb91b0198/"
+                target="_blank"
+                rel="noreferrer"
+                title="Joy Khweis Linkedin"
+              >
+                <FontAwesomeIcon icon={faLinkedin} className="icon-img" />
+              </a>
+              <p>LinkedIn</p>
+            </span>
+          </div>
+        </Row>
       </Container>
     </section>
   );

@@ -107,7 +107,7 @@ export default function Navibar() {
                   href="https://github.com/Jkhweis"
                   target="_blank"
                   rel="noreferrer"
-                  title="Joy Khweis Github Icon"
+                  title="Joy Khweis Github"
                 >
                   <FontAwesomeIcon icon={faGithub} className="icon-img" />
                 </a>
@@ -115,7 +115,7 @@ export default function Navibar() {
                   href="https://www.linkedin.com/in/joy-khweis-bb91b0198/"
                   target="_blank"
                   rel="noreferrer"
-                  title="Joy Khweis Linkedin Icon"
+                  title="Joy Khweis Linkedin"
                 >
                   <FontAwesomeIcon icon={faLinkedin} className="icon-img" />
                 </a>

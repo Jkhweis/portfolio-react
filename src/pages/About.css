@@ -14,7 +14,7 @@
   font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-top: 40px;
+  margin-top: 45px;
   margin-bottom: 30px;
   display: block;
   font-family: 'Prata', serif;
@@ -70,6 +70,23 @@
 .about .cert-icon :hover {
   color: rgb(191, 240, 241);
   opacity: 0.9;
+}
+
+.about .social-links {
+  margin-top: 30px;
+}
+
+.about .icon-img {
+  margin: 0 30px;
+  font-size: 43px;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.about .icon-img:hover {
+  color: violet;
 }
 
 @media (max-width: 900px) {
