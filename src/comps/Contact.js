@@ -30,7 +30,7 @@ export default function Contact() {
             </a>{' '}
             on Github
           </p>
-          <p>© 2022 Joy Khweis</p>
+          <p>© 2024 Joy Khweis</p>
         </footer>
       </Container>
     </section>

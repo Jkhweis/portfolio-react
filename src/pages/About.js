@@ -34,8 +34,7 @@ export default function About() {
             proficiency in React, with an emphasis on functional components,
             custom hooks, state management, and responsive web design. I
             continue to build new projects regularly, and am currently open for
-            freelance and work opportunities. Outside of coding, some of my
-            hobbies include viola, gaming, world travel, & Muay Thai boxing.
+            freelance and work opportunities.
           </p>
         </Col>
         <Col>
